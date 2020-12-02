@@ -1,0 +1,39 @@
+#igra{
+    background:linear-gradient(rgb(0, 142, 243), skyblue, rgb(228, 241, 247),rgb(81, 255, 0), green); /*градиентная заливка фона*/
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative; /* Позиция всех блоков относительно igra*/
+}
+#ball{
+    background: radial-gradient(skyblue, blue);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 175px;
+    left: 275px;
+    
+}
+#stars{
+    font-family: sans-serif;
+    font-size: 34px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    left: 5px;
+}
+#lifes{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+#lifes span{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background: red;
+    display: block;
+    float: left;
+}
